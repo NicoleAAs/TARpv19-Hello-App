@@ -9,8 +9,12 @@ namespace TARpv19
             Console.WriteLine("Please, enter your name:");
             string name = Console.ReadLine();
 
-            Console.WriteLine("Hello World!" + name +"!");
+            //Console.WriteLine("Hello World!" + name +"!");
 
+            //string interpolation
+
+
+            Console.WriteLine($"Hello, {name}!") ;
             Console.ReadLine();
         }
     }
